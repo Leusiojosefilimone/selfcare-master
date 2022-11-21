@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Passion+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Sriracha&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body, html{
+    width: 100vw;
+}
+header{
+    width: 100%;
+    margin-bottom: 50px;
+}
+header .nav-bar {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+header .nav-bar #logo{
+    display: flex;
+    margin-left: 20px;
+}
+header .nav-bar #logo i{
+    font-size: 1.3rem;
+}
+header .nav-bar #logo h3{
+    margin-left: 5px;
+}
+header .nav-bar #icone-btn{
+    margin-right: 40px;
+    
+}
+header .nav-bar #icone-btn button {
+    border: none;
+    background: transparent;
+}
+header .nav-bar #icone-btn button:hover{
+    transform: translateY(-3px);
+}
+header .nav-bar #icone-btn i{
+    margin-left: 15px;
+    font-weight: 200;
+    font-size: 1.6rem;
+    color: #5CA720;
+}
+header .imagem img{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.459);
+    width: 100%;
+}
+header .promocoes-productos{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header .promocoes-productos #promocao{
+    margin-left: 30px;
+    font-size: 22px;
+    color:  #161616;
+    font-weight: bold;
+}
+header .promocoes-productos #productos{
+    color: #161616 ;
+    margin-right: 30px;
+    font-weight: 600;
+}
+main{
+    margin-bottom: 40px;
+}
+main > section{
+    display: flex ;
+    justify-content: space-around;
+    gap: 90px;
+    flex-wrap: wrap;
+  
+}
+
+main > section  .main-span{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main > section  span img{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    width: 270px;
+    height: 270px;
+}
+main > section  span img:hover{
+    animation: anpliar .3s forwards;
+}
+main > section  span .about{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.651);
+}
+main > section   span .about:hover{
+    color: black;
+}
+main > section  span strong{
+    color: #5CA720;
+}
+footer{
+    background: #F9F9F9;
+}
+footer > section > article{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+footer > section > article .info{
+    
+    margin-left: 70px;
+}
+footer > section > article .info p{
+    font-size: .7rem;
+    font-weight:700;
+    padding: 3px;
+    letter-spacing: 1px;
+}
+footer > section > article .info p:hover{
+    text-decoration: underline;
+}
+footer > section > article .input {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+footer > section > article .input span{
+    font-size: 14px;
+    font-weight: 600;
+}
+footer > section > article .input input[type='submit']{
+    color: white;
+    font-weight: 600;
+    background: #5CA720;
+    border: none;
+    padding: 7px;
+}
+footer > section > article .input input[type='email']{
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    padding: 6px;
+}
+footer > section > article .input #input{
+    margin-top: 10px;
+    background-color: #5CA720 ;
+    border-radius: 4px;
+}
+
+footer > section > article img{
+    margin: 0px px;
+}
+
+footer > section > article img{
+    width: 30px;
+    height: 30px;
+}
+
+footer > section > article img:hover{
+    transform: translateY(-4px);
+}
+
+footer > section > article #pagamentos{
+    margin-right: 70px;
+}
+
+footer > section > article #redes-socias{
+    margin-left: 70px;
+}
+
+@keyframes anpliar{
+    from{
+       
+      width: 270px;
+      height: 270px ;
+    }
+    to{
+        
+        width: 300px;
+        height: 300px ;
+    }
+}
+ 
